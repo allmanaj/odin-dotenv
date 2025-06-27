@@ -1,0 +1,8 @@
+{
+	"version": "0.0.1-beta",
+	"description": "A library that loads environment variables from a file.",
+	"url": "https://github.com/fatshark-kra/odin-dotenv",
+	"readme": "README.md",
+	"license": "All Rights Reserved",
+	"keywords": ["dotenv", "env", "env var", "environment", "variable"]
+}
