@@ -26,12 +26,12 @@ The library doesn't override variables set outside of the process. For example, 
 * `odin run .`:
   ```odin
   // Prints test
-  fmt.println(os.get_env("DEPLOY_ENV"))
+  fmt.println(os.get_env("DEPLOY_ENV", context.temp_allocator))
   ```
 * `DEPLOY_ENV=prod odin run .`
   ```odin
   // Prints prod
-  fmt.println(os.get_env("DEPLOY_ENV"))
+  fmt.println(os.get_env("DEPLOY_ENV", context.temp_allocator))
   ```
 
 # Compatibility
